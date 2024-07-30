@@ -1,1 +1,14 @@
+nav {
+  font-family: "Rajdhani", sans-serif;
+}
 
+
+.navbar-item
+{
+  font-size: 1.25rem;
+}
+
+.navbar-logo {
+  font-size: 1.75rem;
+  font-weight: bold;
+  letter-spacing: .3rem;}

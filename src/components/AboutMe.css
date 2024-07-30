@@ -1,0 +1,21 @@
+.about-me {
+  max-width: 90vw;
+  height:80vh;
+  margin: 2.5rem auto;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: none;
+}
+
+.image.is-rounded {
+  border: 2px solid #4a4a4a; /* Slightly lighter border for the image */
+}
+
+.title,
+.subtitle {
+  margin-bottom: 5px;
+}
+
+.content {
+  line-height: 1.6;
+}

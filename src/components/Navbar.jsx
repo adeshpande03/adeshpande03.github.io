@@ -14,14 +14,14 @@ function Navbar() {
     <nav className="navbar" role="navigation" aria-label="main navigation">
       <div className="navbar-brand">
         <Link
-          className="navbar-item has-text-primary"
+          className="navbar-item has-text-primary navbar-logo"
           to="top"
           spy={true}
           smooth={true}
           offset={-70}
           duration={500}
         >
-          AD
+          ADESH
         </Link>
         <a
           role="button"
@@ -40,13 +40,13 @@ function Navbar() {
         <div className="navbar-start">
           <Link
             className="navbar-item"
-            to="projects"
+            to="AboutMe"
             spy={true}
             smooth={true}
             offset={-70}
             duration={500}
           >
-            Experience
+            About Me
           </Link>
           <Link
             className="navbar-item"
@@ -56,7 +56,7 @@ function Navbar() {
             offset={-70}
             duration={500}
           >
-            Projects
+            Thing Two
           </Link>
         </div>
       </div>

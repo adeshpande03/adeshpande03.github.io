@@ -1,0 +1,22 @@
+footer {
+  position: sticky;
+  bottom: 100;
+  left: 0;
+  width: 100%;
+  font-family: "Rajdhani", sans-serif;
+  margin-bottom: 0.5rem;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+footer li {
+  margin: 0 10px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
