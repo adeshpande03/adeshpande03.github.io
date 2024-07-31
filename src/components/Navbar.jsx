@@ -48,7 +48,7 @@ function Navbar() {
           >
             About Me
           </Link>
-          <Link
+          {/* <Link
             className="navbar-item"
             to="resume"
             spy={true}
@@ -57,7 +57,7 @@ function Navbar() {
             duration={500}
           >
             Thing Two
-          </Link>
+          </Link> */}
         </div>
       </div>
     </nav>
