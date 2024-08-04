@@ -48,12 +48,12 @@
   justify-content: space-between; /* Aligns children to each end */
   height: 80vh;
 }
-.streak-img-container {
+/* .streak-img-container {
   align-self: flex-end;
   height: auto;
   object-fit: cover;
   width: 100%;
-}
+} */
 
 .about-me-ps {
   height: 100%;
