@@ -1,7 +1,11 @@
+.about-me-wrapper {
+  font-family: "Rajdhani", sans-serif;
+  display: flex;
+}
 .about-me {
-  max-width: 90vw;
+  width: 35vw;
   height: 80vh;
-  margin: 2.5rem auto;
+  margin: 2.5rem;
   padding: 2rem;
   border-radius: 10px;
   box-shadow: none;
@@ -25,9 +29,38 @@
   align-items: center;
   justify-content: center;
 }
-.media-content {
-  flex: 1;
-}
 .about-me-text {
   margin: 0.5rem !important;
+}
+.about-me-box {
+  flex: 1;
+}
+
+.about-me-info {
+  font-size: 1.2rem !important;
+}
+.imgs {
+  margin-right: 2.5rem;
+  margin-top: 2.5rem;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Aligns children to each end */
+  height: 80vh;
+}
+.streak-img-container {
+  align-self: flex-end;
+  height: auto;
+  object-fit: cover;
+  width: 100%;
+}
+
+.about-me-ps {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.about-me-info-bottom {
+  align-self: flex-end;
 }
