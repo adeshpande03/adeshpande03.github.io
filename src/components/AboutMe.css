@@ -48,12 +48,12 @@
   justify-content: space-between; /* Aligns children to each end */
   height: 80vh;
 }
-/* .streak-img-container {
+.streak-img-container {
   align-self: flex-end;
   height: auto;
   object-fit: cover;
   width: 100%;
-} */
+}
 
 .about-me-ps {
   height: 100%;
@@ -63,4 +63,38 @@
 }
 .about-me-info-bottom {
   align-self: flex-end;
+}
+
+@media (max-width: 768px) {
+  .about-me
+  {
+    height: 100%;
+  }
+  .about-me-wrapper {
+    flex-direction: column;
+  }
+
+  .about-me,
+  .imgs {
+    width: 90%;
+    margin: 1rem;
+    padding: 1rem;
+    display: block;
+    height: 100%;
+  }
+
+  .about-me-info,
+  .title,
+  .subtitle {
+    font-size: smaller;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .about-me-info,
+  .title,
+  .subtitle {
+    font-size: smaller;
+  }
 }
