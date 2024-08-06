@@ -8,9 +8,9 @@ function App() {
   return (
     <body id="page-container">
       <Navbar />
-      <div className="content-wrap">
+      {/* <div className="content-wrap"> */}
         <AboutMe />
-      </div>
+      {/* </div> */}
       <Footer />
     </body>
   );

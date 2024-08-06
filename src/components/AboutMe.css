@@ -56,19 +56,27 @@
 }
 
 .about-me-ps {
-  overflow: scroll;
+  overflow: auto;
   height: auto;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.about-me-info-bottom {
-  align-self: flex-end;
+.about-me-info-small {
+  padding-top: 0.5rem;
+  font-size: 1rem;
 }
 
-@media (max-width: 900px) {
-  .about-me
-  {
+@media (max-width: 1250px) {
+  .about-me-wrapper {
+    font-family: "Rajdhani", sans-serif;
+    /* display: flex; */
+  }
+  .about-me-info {
+    font-size: 1.2rem !important;
+  }
+
+  .about-me {
     height: 100%;
   }
   .about-me-wrapper {
@@ -77,8 +85,9 @@
 
   .about-me,
   .imgs {
+    margin: 0 auto;
     width: 90%;
-    margin: 2.5rem;
+    /* margin: 2.5rem; */
     display: block;
     height: 100%;
   }
@@ -89,7 +98,6 @@
     font-size: smaller;
   }
 }
-
 
 @media (max-width: 480px) {
   .about-me-info,
