@@ -48,16 +48,16 @@ function Navbar() {
           >
             About Me
           </Link>
-          {/* <Link
+          <Link
             className="navbar-item"
-            to="resume"
+            to="Projects"
             spy={true}
             smooth={true}
             offset={-70}
             duration={500}
           >
-            Thing Two
-          </Link> */}
+            Projects
+          </Link>
         </div>
       </div>
     </nav>

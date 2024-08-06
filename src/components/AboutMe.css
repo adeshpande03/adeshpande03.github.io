@@ -1,6 +1,7 @@
 .about-me-wrapper {
   font-family: "Rajdhani", sans-serif;
   display: flex;
+  height: 100vh;
 }
 .about-me {
   width: 35vw;
@@ -32,7 +33,6 @@
 }
 .about-me-text {
   margin: 0.5rem !important;
-
 }
 .about-me-box {
   flex: 1;
@@ -57,13 +57,13 @@
   width: 100%;
 }
 
-/* .about-me-ps {
+.about-me-ps {
   overflow: auto;
   height: auto;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-} */
+}
 .about-me-info-small {
   padding-top: 0.5rem;
   font-size: 1rem;

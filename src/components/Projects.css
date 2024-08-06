@@ -1,0 +1,16 @@
+.projects-wrapper {
+  font-family: "Rajdhani", sans-serif;
+  display: flex;
+  margin: auto 2.5rem;
+  display: grid;
+  gap: 1rem;
+}
+
+.card {
+  height: 100%;
+  box-shadow: none !important;
+  
+}
+.card-header {
+  box-shadow: none !important;
+}
