@@ -10,7 +10,7 @@
   padding: 2rem;
   border-radius: 10px;
   box-shadow: none;
-  overflow: hidden;
+  overflow: auto;
 }
 
 .image.is-rounded {
@@ -78,11 +78,9 @@
     font-size: 1.2rem !important;
   }
 
-  .about-me {
-    height: 100%;
-  }
   .about-me-wrapper {
     flex-direction: column;
+    height: auto !important;
   }
 
   .about-me,
@@ -91,7 +89,7 @@
     width: 90%;
     /* margin: 2.5rem; */
     display: block;
-    height: 100%;
+    height: auto;
   }
 
   .about-me-info,
@@ -101,10 +99,5 @@
   }
 }
 
-@media (max-width: 480px) {
-  .about-me-info,
-  .title,
-  .subtitle {
-    font-size: smaller;
-  }
-}
+
+

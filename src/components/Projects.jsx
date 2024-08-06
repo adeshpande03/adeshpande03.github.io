@@ -17,9 +17,14 @@ function Projects() {
 
     return (
         <div id="Projects" className="projects-wrapper">
-            <h1>Projects</h1>
+            <section className='hero is-medium is-link' data-aos="fade-up">
+                <div className="hero-body">
+                    <div className="title">Projects</div>
+                </div>
+            </section>
+
             {projects.map((project) => (
-                <div key={project.id} className="card has-background-dark">
+                <div key={project.id} className="card has-background-dark" data-aos="fade-up">
                     <div className="card-content">
                         <p className="title">
                             {project.name}
@@ -27,7 +32,6 @@ function Projects() {
                         <p className='subtitle'>{project.languages.join(', ')}</p>
                         <div className="card-content ">
                             <div className="content">
-
                             </div>
                         </div>
                     </div>

@@ -14,3 +14,6 @@
 .card-header {
   box-shadow: none !important;
 }
+
+.hero
+{border-radius: .5rem;}

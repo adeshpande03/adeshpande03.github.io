@@ -17,7 +17,7 @@ function App() {
     <body id="page-container">
       <Navbar />
       <AboutMe />
-      {/* <Projects /> */}
+      <Projects />
       <Footer />
     </body >
   );

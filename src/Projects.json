@@ -9,6 +9,7 @@
       "JS",
       "Bootstrap",
       "Flask",
+      "Jinja2",
       "Spotify API"
     ]
   },
@@ -22,20 +23,56 @@
       "JS",
       "Bulma",
       "Flask",
+      "Jinja2",
       "Google Maps API"
     ]
   },
   {
     "id": 3,
-    "name": "PlanSpacer",
+    "name": "Texas ICA Website",
     "languages": [
-      "Python",
       "HTML",
       "CSS",
       "JS",
-      "Bulma",
-      "Flask",
-      "Google Maps API"
+      "TypingJS",
+      "SwiperJS",
+      "EmailJS",
+      "Github Pages"
     ]
+  },
+  {
+    "id": 4,
+    "name": "Leetcode Experience Grapher",
+    "languages": ["Python", "matplotlib", "pandas"]
+  },
+  {
+    "id": 5,
+    "name": "Text-Yourself-Python",
+    "languages": ["Python", "Github Actions", "SMTP", "Requests", "GraphQL"]
+  },
+  {
+    "id": 6,
+    "name": "For The Dhoomies",
+    "languages": ["Python", "Flask", "Jinja2", "HTML", "CSS", "JS"]
+  },
+  {
+    "id": 7,
+    "name": "Audiobook (Gita) Downloader",
+    "languages": ["Python", "Requests", "Web Scraping"]
+  },
+  {
+    "id": 8,
+    "name": "Advent of Code 2021 - Present",
+    "languages": ["Python", "C++", "PyPy3", "Java"]
+  },
+  {
+    "id": 9,
+    "name": "adeshpande03.github.io",
+    "languages": ["React", "HTML", "JS", "CSS", "Bulma"]
+  },
+  {
+    "id": 10,
+    "name": "Poker-Social",
+    "languages": ["Flask", "Jinja2", "JS", "CSS", "SQLAlchemy", "Flask-Login"]
   }
 ]
