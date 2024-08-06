@@ -3,11 +3,11 @@ import './AboutMe.css';
 import 'bulma/css/bulma.min.css';
 
 function AboutMe() {
-    const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
+    const [isMobile, setIsMobile] = useState(window.innerWidth < 900);
 
     useEffect(() => {
         function handleResize() {
-            setIsMobile(window.innerWidth < 768);
+            setIsMobile(window.innerWidth < 900);
         }
 
         window.addEventListener('resize', handleResize);
@@ -19,9 +19,11 @@ function AboutMe() {
             <div className="about-me box has-background-dark">
                 <div className="media">
                     <div className="media-left">
-                        <figure className="image is-128x128">
-                            <img className="is-rounded" src="pfp.JPG" alt="Profile" />
-                        </figure>
+                        {!isMobile && (
+                            <figure className="image is-128x128">
+                                <img className="is-rounded" src="pfp.JPG" alt="Profile" />
+                            </figure>
+                        )}
                     </div>
                     <div className="media-content">
                         <p className="title is-3 has-text-light about-me-text">Akhil Deshpande</p>
@@ -31,7 +33,7 @@ function AboutMe() {
                 </div>
                 <div className="abt-me-ps">
                     <p className="has-text-light about-me-info">Hello there! My name is Akhil Deshpande. Earlier this year, I graduated with a B.S. in Physics from the University of Texas at Austin. I am currently a new graduate employed by <a href="https://usa.visa.com" target="_blank">Visa</a> as a Software Test Engineer in Austin, TX. My main interests these days revolve around creative programming solutions to everyday problems I face in the real world.</p>
-                    <p className="about-me-info">To the right, you can see two of my personal tracker projects - <a href="https://github.com/adeshpande03/github-readme-streak-stats/" target="_blank">Github Streak Stats</a> (bottom, forked from a public repository), as well as my original <a target="_blank" href="github.com/adeshpande03/leetCode-Points-Graph">Leetcode Experience Tracker</a> (top), both of which update in real time!</p>
+                    <p className="about-me-info">To the {isMobile ? "bottom" : "right"}, you can see two of my personal tracker projects - <a href="https://github.com/adeshpande03/github-readme-streak-stats/" target="_blank">Github Streak Stats</a> (bottom, forked from a public repository), as well as my original <a target="_blank" href="github.com/adeshpande03/leetCode-Points-Graph">Leetcode Experience Tracker</a> (top), both of which update in real time!</p>
                 </div>
             </div>
             <div className="imgs">
