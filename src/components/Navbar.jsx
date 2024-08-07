@@ -68,11 +68,10 @@ function Navbar() {
           >
             Experience
           </Link>
-          <a href={require('../AkhilDeshpande_Resume.pdf')} className="navbar-item" target="_blank"> Resume</a>
-
+          <a href="https://github.com/adeshpande03/Resume/blob/main/AkhilDeshpande_Resume.pdf?raw=true" className="navbar-item" target="_blank"> Resume</a>
         </div>
       </div>
-    </nav>
+    </nav >
   );
 }
 
