@@ -22,7 +22,7 @@
       "Influenced the development and delivery of 100+ course materials, including lectures, assignments, and exams.",
       "Led weekly discussion sections and lab sessions, providing individualized support to 30+ students per session.",
       "Graded 60+ assignments per week, exams, and projects, providing timely and detailed feedback to students.",
-      "Worked with Docker environments every week to custom-write quizzes and assignments for groups of studdents."
+      "Worked with Docker environments every week to custom-write quizzes and assignments for groups of students."
     ]
   },
   {
@@ -45,6 +45,8 @@
     "title": "Software Test Engineer",
     "location": "Austin, TX",
     "dates": ["08/2024", "Present"],
-    "bullets": ["Started August 20, 2024 with a return offer from my internship."]
+    "bullets": [
+      "Started August 20, 2024 with a return offer from my internship."
+    ]
   }
 ]
