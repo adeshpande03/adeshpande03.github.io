@@ -37,7 +37,7 @@ function AboutMe() {
                 <p className="about-me-info-small">Scroll down for my projects, experience, and resume!</p>
                 {/* </div> */}
             </div>
-            <div className="imgs" data-aos="fade" data-aos-delay="1000">
+            <div className="imgs" data-aos="fade" data-aos-delay="2000">
                 <img src="https://github.com/adeshpande03/LeetCode-Points-Graph/blob/main/points_graph_rounded_corners.png?raw=true" alt="LeetCode Points Graph" />
                 <img className="streak-img-container" src="https://github-readme-streak-stats-kappa-three.vercel.app?user=adeshpande03&theme=adeshpande03&border_radius=10&hide_longest_streak=true&hide_border=true" alt="GitHub Streak" />
             </div>
