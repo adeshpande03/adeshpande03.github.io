@@ -28,7 +28,7 @@ function Projects() {
 
     return (
         <section id="Projects" className="projects-wrapper">
-            <div className='hero is-medium is-link' data-aos="fade-up">
+            <div className='hero is-small is-link' data-aos="fade-up">
                 <div className="hero-body">
                     <div className="title">Projects</div>
                 </div>
