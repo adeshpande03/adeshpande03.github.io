@@ -11,7 +11,9 @@
       "Flask",
       "Jinja2",
       "Spotify API"
-    ]
+    ],
+    "url": "github.com/adeshpande03/fixify",
+    "content": "A web app designed to fix users' playlists if any of the songs have been deleted from Spotify's backend network. Also allows the user to download their playlists as metadata formatted folders of .mp3 files from Youtube"
   },
   {
     "id": 2,
@@ -25,7 +27,9 @@
       "Flask",
       "Jinja2",
       "Google Maps API"
-    ]
+    ],
+    "url": "github.com/adeshpande03/planspacer",
+    "content": "A web app designed to help friends find equitable solutions for where they want to meet. Prioritizes shortest distances first, and then sorts by the most equal driving times between friends."
   },
   {
     "id": 3,
@@ -38,41 +42,64 @@
       "SwiperJS",
       "EmailJS",
       "Github Pages"
-    ]
+    ],
+    "url": "github.com/texasica/texasica.github.io",
+    "content": "A website I built from scratch for my college organization \"Texas Indian Cultural Association\" at UT Austin. Includes visuals like slides, and typing content."
   },
   {
     "id": 4,
     "name": "Leetcode Experience Grapher",
-    "languages": ["Python", "matplotlib", "pandas"]
+    "languages": ["Python", "matplotlib", "pandas", "Github Actions"],
+    "url": "github.com/adeshpande03/LeetCode-Points-Graph",
+    "content": "A python application I designed to track how many Leetcode Experience points I have at any given time. Updates thrice per day, and when a change in points is detected, matplotlib plots the point, and smoothens the curve to account for it."
   },
   {
     "id": 5,
     "name": "Text-Yourself-Python",
-    "languages": ["Python", "Github Actions", "SMTP", "Requests", "GraphQL"]
+    "languages": ["Python", "Github Actions", "SMTP", "Requests", "GraphQL"],
+    "url": "github.com/adeshpande03/text-yourself-python",
+    "content": "A python application I built orinally to text me the weather when I woke up, and when I got out of class. Now, it performs a GraphQL query to Leetcode, and messages me at my phone number reminding me to do my daily Leetcode problem if it is incomplete."
   },
   {
     "id": 6,
     "name": "For The Dhoomies",
-    "languages": ["Python", "Flask", "Jinja2", "HTML", "CSS", "JS"]
+    "languages": ["Python", "Flask", "Jinja2", "HTML", "CSS", "JS"],
+    "url": "github.com/adeshpande03/forthedhoomies",
+    "content": "A Flask (and later recoded in pure JS) game that I coded for my college dance team \"Texas Dhoom\". Is a parody of the game \"For the Girls\", where image cards are randomly chosen, and points are tallied in a game-like fashion"
   },
   {
     "id": 7,
     "name": "Audiobook (Gita) Downloader",
-    "languages": ["Python", "Requests", "Web Scraping"]
+    "languages": ["Python", "Requests", "Web Scraping"],
+    "url": "github.com/adeshpande03/Audiobook-Download-Script",
+    "content": "My first mini python application. Downloads all chapters of the Hindu Bhagavad Gita to folders on your machine. Configurations also enable one megafile consisting of about 7 hours of audio to be compiled if the user wishes."
   },
   {
     "id": 8,
     "name": "Advent of Code 2021 - Present",
-    "languages": ["Python", "C++", "PyPy3", "Java"]
+    "languages": ["Python", "C++", "PyPy3", "Java"],
+    "url": "github.com/adeshpande03/AdventOfCode2023",
+    "content": "My advent of code  submissions for the years 2021 to the present. Some submissions are done in Java or C++, but most are compiled in pypy3 or Python 3.10.12"
   },
   {
     "id": 9,
     "name": "adeshpande03.github.io",
-    "languages": ["React", "HTML", "JS", "CSS", "Bulma"]
+    "languages": ["React", "HTML", "JS", "CSS", "Bulma"],
+    "url": "github.com/adeshpande03/adeshpande03.github.io",
+    "content": "This website! Please feel free to look around!"
   },
   {
     "id": 10,
     "name": "Poker-Social",
-    "languages": ["Flask", "Jinja2", "JS", "CSS", "SQLAlchemy", "Flask-Login"]
+    "languages": ["Flask", "Jinja2", "JS", "CSS", "SQLAlchemy", "Flask-Login"],
+    "url": "github.com/adeshpande03/poker-social",
+    "content": "An in-progress web application designed to track poker games and earnings between friend groups. Updates coming soon!"
+  },
+  {
+    "id": 11,
+    "name": "Comic Book Downloader",
+    "languages": ["Python", "Pillow", "Requests", "Postman"],
+    "url": "github.com/adeshpande03/AsuraScansRipper",
+    "content": "A comic book downloader from the popular scanlation site AsuraScans. Downloads the comic files into separate folders consisting of many .webp files."
   }
 ]

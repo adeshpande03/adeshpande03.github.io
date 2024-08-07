@@ -9,11 +9,17 @@
 .card {
   height: 100%;
   box-shadow: none !important;
-  
 }
 .card-header {
   box-shadow: none !important;
 }
 
-.hero
-{border-radius: .5rem;}
+.hero {
+  border-radius: 1rem;
+}
+
+@media (max-width: 1250px) {
+  .title {
+    font-size: 1.5rem;
+  }
+}
