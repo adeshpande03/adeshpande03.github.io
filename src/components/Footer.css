@@ -1,11 +1,11 @@
 footer {
-  margin-top: 2rem;
+  margin-top: 2vh;
   position: sticky;
   bottom: 100;
   left: 0;
   width: 100%;
   font-family: "Rajdhani", sans-serif;
-  margin-bottom: 2rem;
+  margin-bottom: 2vh;
 }
 
 footer ul {

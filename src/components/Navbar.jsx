@@ -58,6 +58,18 @@ function Navbar() {
           >
             Projects
           </Link>
+          <Link
+            className="navbar-item"
+            to="Experience"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            Experience
+          </Link>
+          <a href={require('../AkhilDeshpande_Resume.pdf')} className="navbar-item" target="_blank"> Resume</a>
+
         </div>
       </div>
     </nav>

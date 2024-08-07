@@ -85,8 +85,8 @@
 
   .about-me,
   .imgs {
-    margin: 0 auto;
-    width: 90%;
+    margin: 0 2.5rem;
+    width: auto;
     /* margin: 2.5rem; */
     display: block;
     height: auto;

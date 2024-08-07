@@ -27,12 +27,12 @@ function Projects() {
     }, []);
 
     return (
-        <div id="Projects" className="projects-wrapper">
-            <section className='hero is-medium is-link' data-aos="fade-up">
+        <section id="Projects" className="projects-wrapper">
+            <div className='hero is-medium is-link' data-aos="fade-up">
                 <div className="hero-body">
                     <div className="title">Projects</div>
                 </div>
-            </section>
+            </div>
 
             {sortProjects(projects).map((project) => (
                 <div key={project.id} className="card has-background-dark" data-aos="fade-up">
@@ -42,14 +42,14 @@ function Projects() {
                         </p>
                         <p className='subtitle'>{project.languages.sort().join(', ')}</p>
                         <div className="card-content ">
-                            <div style={{"font-size":"larger", "color":"#fff"}}className="content">
+                            <div style={{ "font-size": "larger", "color": "#fff" }} className="content">
                                 {project.content}
                             </div>
                         </div>
                     </div>
                 </div>
             ))}
-        </div>
+        </section>
     );
 }
 

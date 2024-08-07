@@ -6,7 +6,8 @@ import Navbar from "./components/Navbar";
 import AboutMe from "./components/AboutMe";
 import Footer from "./components/Footer";
 import Projects from "./components/Projects";
-import Aos from "aos"; 
+import Experience from "./components/Experience";
+import Aos from "aos";
 import 'aos/dist/aos.css';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <Navbar />
       <AboutMe />
       <Projects />
+      <Experience />
       <Footer />
     </body >
   );

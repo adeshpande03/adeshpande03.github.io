@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Dexcent",
+    "title": "Software Test Engineer Intern",
+    "location": "Edmonton, AB",
+    "dates": ["05/2022", "08/2022"],
+    "bullets": [
+      "Implemented over 93% test coverage for a Django REST server, ensuring the quality and reliability of the codebase.",
+      "Incorporated Postman to automatically send over 30 calls per day and receive data, testing the functionality of the server and debugging any issues.",
+      "Synchronized 10+ test cases per day with an independent codebase inside a git branch while automating test runs.",
+      "Structured code in a team environment, collaborating with two senior developers to achieve test database coverage."
+    ]
+  },
+  {
+    "id": 2,
+    "name": "UT Austin",
+    "title": "Computer Science Teaching Assistant",
+    "location": "Austin, TX",
+    "dates": ["09/2022", "05/2024"],
+    "bullets": [
+      "Influenced the development and delivery of 100+ course materials, including lectures, assignments, and exams.",
+      "Led weekly discussion sections and lab sessions, providing individualized support to 30+ students per session.",
+      "Graded 60+ assignments per week, exams, and projects, providing timely and detailed feedback to students.",
+      "Worked with Docker environments every week to custom-write quizzes and assignments for groups of studdents."
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Visa (Intern)",
+    "title": "Software Test Engineer Intern",
+    "location": "Austin, TX",
+    "dates": ["05/2023", "08/2023"],
+    "bullets": [
+      "Independently created and managed a Flask application that reduced a manual process runtime by 90%.",
+      "Used paramiko and oracleDB to automate SSH connection, Kafka messaging, and database validation.",
+      "Implemented JSON validation within a fast and reliable UI element to highlight sources of error.",
+      "Used the atexit and logging libraries to accurately and efficiently generate log files with results of each sent payload.",
+      "Wrote independent documentation and test code, as well as Wiki pages to integrate project with current team."
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Visa (Full Time)",
+    "title": "Software Test Engineer",
+    "location": "Austin, TX",
+    "dates": ["08/2024", "Present"],
+    "bullets": ["Started August 20, 2024 with a return offer from my internship."]
+  }
+]
