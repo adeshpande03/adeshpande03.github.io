@@ -3,6 +3,9 @@
   display: flex;
   height: 100vh;
 }
+.burnt-orange {
+  color: #bf5700;
+}
 .about-me {
   width: 35vw;
   height: 80vh;
@@ -98,6 +101,3 @@
     font-size: smaller;
   }
 }
-
-
-
