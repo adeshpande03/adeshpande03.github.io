@@ -1,8 +1,10 @@
 html,
 body {
   height: 100%; /* Ensures the full height of the browser window */
-  margin: 0;
+  margin: 0 auto !important;
   padding: 0;
+  max-width: 2500px;
+  background-color: hsl(221, 14, 9);
 }
 .App {
   text-align: center;
@@ -35,5 +37,5 @@ body {
 }
 
 .content-wrap {
-  flex: 1; 
+  flex: 1;
 }

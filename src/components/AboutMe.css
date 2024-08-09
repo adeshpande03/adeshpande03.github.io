@@ -56,8 +56,21 @@
 .streak-img-container {
   align-self: flex-end;
   height: auto;
+  object-fit:cover;
+  width: 100%;
+  border-radius: calc(2vw);
+  max-height: 45%;
+
+}
+
+.lc-img-container {
+  align-self: flex-start;
+  height: auto;
   object-fit: cover;
   width: 100%;
+  border-radius: 10px;
+  max-height: 40%;
+
 }
 
 .about-me-ps {
