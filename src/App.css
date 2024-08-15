@@ -3,7 +3,7 @@ body {
   height: 100%; /* Ensures the full height of the browser window */
   margin: 0 auto !important;
   padding: 0;
-  max-width: 2500px;
+  max-width: 1800px;
   background-color: hsl(221, 14, 9);
 }
 .App {

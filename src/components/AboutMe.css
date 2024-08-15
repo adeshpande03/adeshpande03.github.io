@@ -53,23 +53,24 @@
   justify-content: space-between; /* Aligns children to each end */
   height: 80vh;
 }
+
 .streak-img-container {
-  align-self: flex-end;
+  /* align-self: flex-end; */
   height: auto;
   object-fit:cover;
   width: 100%;
   border-radius: calc(2vw);
-  max-height: 45%;
+  max-height: 53%;
 
 }
 
 .lc-img-container {
-  align-self: flex-start;
+  /* align-self: flex-start; */
   height: auto;
   object-fit: cover;
   width: 100%;
-  border-radius: 10px;
-  max-height: 40%;
+  border-radius: calc(2vw);
+  max-height: 45%;
 
 }
 
@@ -112,5 +113,17 @@
   .title,
   .subtitle {
     font-size: smaller;
+  }
+}
+
+@media (min-width: 1800px) {
+  .lc-img-container
+  {
+    object-fit: contain;
+  }
+  .streak-img-container
+  {
+    width: 100%;
+    object-fit: contain;
   }
 }
